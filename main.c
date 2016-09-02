@@ -6,7 +6,7 @@
 
 int main()
 {
-/*
+
     FilaVet* minhafila = criarFila();
     PilhaVet* minhapilha = criarPilha();
     ListaVet* minhalista = criarLista();
@@ -72,18 +72,8 @@ int main()
 
     }
 
-*/
-int i,item;
- ListaVet* minhalista = criarLista();
- inserirl(minhalista,10,0);
- inserirl(minhalista,5,1);
- inserirl(minhalista,0,2);
- inserirl(minhalista,9,3);
-  for (i=10;i<0;i++)
-{
-removerl(minhalista,&item,i);
-printf(" %d ",item);
-}
+
+
     return 0;
 
 
